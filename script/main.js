@@ -4,7 +4,7 @@ const addItem = document.querySelectorAll('.btn-outline-warning')
 const wrapper = document.querySelector('.cart-wrapper')
 const totalPrice = document.querySelector('.total-price')
 const alertCart = document.querySelector('.alert-secondary')
-console.log(alertCart);
+
 
 function proverkaCartlength() {
   const wrap = document.querySelectorAll('.cart-item')
@@ -65,7 +65,6 @@ function proverka(obj) {
 							</div>
       `)
   }
-  /*culculute(obj)*/
 }
 
 
